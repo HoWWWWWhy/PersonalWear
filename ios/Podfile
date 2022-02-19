@@ -12,6 +12,8 @@ target 'PersonalWear' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
   target 'PersonalWearTests' do
     inherit! :complete
     # Pods for testing
